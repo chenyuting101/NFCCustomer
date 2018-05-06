@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_0d9fbea51fe2ce4e3aadbddfe6904f868e065a6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.yalantis@sidemenu/library/1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ba42d28b8ede39e250ee4ea9df70b9adb02d0e00">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.yalantis@sidemenu-library-1.0_2515a89b46e81b4f16b262f10c4fa1f7a0e79956.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_c5dbbbf5d72349ebc9ae99683c500d995a5791e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/library-2.4.0_4635fb5faba9bfcb51b2a9e85e69bd4cdbe6aabf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="57c231461bd4ab97550b0b053c159e4f13ffc869">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.github.ozodrukh-CircularReveal-1.0.4_4353f632547ab72549a7df247e8fa83f7578a802.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_cd5ac1c801738397f28bdaf29c91306ad8454eae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_5d84f449ff2902170836aa0ac12579ac32b02015.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_1e93d5230f43d0107a2b447c118fd0be3a59de88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_3ebad13e3f3157fea2ba7d48655c07e4b9243f9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/library-2.4.0_4635fb5faba9bfcb51b2a9e85e69bd4cdbe6aabf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="57c231461bd4ab97550b0b053c159e4f13ffc869">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.github.ozodrukh-CircularReveal-1.0.4_4353f632547ab72549a7df247e8fa83f7578a802.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_19abb89f7f4e86982d9b3373a9f6bd1a412c7428.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_43e25b45f4d26d2ef04b9b65cdb37aa34c08d42d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/chenyuting/Documents/3035349065_Android_Optioin_1/Side-Menu.Android-master2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_8fb8c83453f491829275a76cfdba4249dfbb8460.jar" />
+    </item>
+
+</items>

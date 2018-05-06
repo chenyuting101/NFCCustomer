@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/stamp_coupon_item_iv_width"
+        android:layout_height="@dimen/stamp_coupon_item_iv_width"
+        android:id="@+id/stamp_coupon_list_item_iv"
+        android:src="@drawable/add_coupon"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/stamp_coupon_item_iv_width"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/fragment_coupon_divider_margin_left_and_right"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/couponId"
+                android:textSize="@dimen/shop_item_tv_text_size"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stamp_coupon_item_coupon_id"
+                android:textSize="@dimen/shop_item_tv_text_size"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/couponNumber"
+                android:textSize="@dimen/shop_item_tv_text_size"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stamp_coupon_item_coupon_number"
+                android:textSize="@dimen/shop_item_tv_text_size"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/couponDescription"
+                android:textSize="@dimen/shop_item_tv_text_size"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stamp_coupon_item_coupon_description"
+                android:textSize="@dimen/shop_item_tv_text_size"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    
+
+</LinearLayout>

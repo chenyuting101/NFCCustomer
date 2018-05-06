@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Side Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="service_name">CardEmulation Sample</string>
+    <string name="card_title">Sample Loyalty Card</string>
+    <string name="account_number">Account Number</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Receipt-->
+    <string name="Description">Description:</string>
+    <string name="receipt_date">Date:</string>
+    <string name="receipt_time">Time:</string>
+    <string name="receipt_number">Receipt Ref No:</string>
+    <string name="item_code">Item</string>
+    <string name="item_quantity">Quantity</string>
+    <string name="item_original_price">Original Price</string>
+    <string name="item_discount">Discount</string>
+    <string name="item_price">Price</string>
+
+    <!-- Coupon -->
+    <string name="fragment_coupon_add_coupon_id">Coupon ID :</string>
+    <string name="fragment_coupon_add_coupon_type">Type :</string>
+
+    <string name="CANCEL">CANCEL</string>
+    <string name="SAVE">SAVE</string>
+    <string name="shopId">Shop ID :</string>
+    <string name="shopName">Shopname :</string>
+    <string name="shopAddress">Address :</string>
+    <string name="shopPhoneNo">Phone No :</string>
+    <string name="couponId">ID :</string>
+    <string name="couponNumber">Number :</string>
+    <string name="couponDescription">Description :</string>
+
+    <!-- Rule -->
+    <string name="fragment_rule_id">Rule ID :</string>
+    <string name="fragment_rule_for">Rule For :</string>
+    <string name="fragment_rule_type">Rule Type :</string>
+    <string name="fragment_rule_setting_statement">No setting means everyone</string>
+    <string name="fragment_rule_valid_date">Vaild Date(No setting means always) :</string>
+    <string name="fragment_rule_total_cost">Total Cost(No setting means every receipt) :</string>
+    <string name="fragment_rule_exchagne_product_id">Exchange Product ID :</string>
+    <string name="fragment_rule_number">Number :</string>
+    <!-- Setting -->
+    <string name="fragment_setting_upload_data_to_server">Upload data to server :</string>
+    <string name="fragment_setting_receive_advertisement">Receive advertisement :</string>
+    <string name="fragment_setting_filter_advertisement">Filter advertisement :</string>
+
+    <string name="str_run_app">自动打开短信界面</string>
+    <string name="str_run_url">自动打开百度页面</string>
+    <string name="str_read_text">读NFC标签中的文本数据</string>
+    <string name="str_write_text">写NFC标签中的文本数据</string>
+    <string name="str_read_uri">读NFC标签中的Uri数据</string>
+    <string name="str_write_uri">写NFC标签中的Uri数据</string>
+    <string name="str_read_mu">读NFC标签非NDEF格式的数据</string>
+    <string name="str_write_mu">写NFC标签非NDEF格式的数据</string>
+
+</resources>

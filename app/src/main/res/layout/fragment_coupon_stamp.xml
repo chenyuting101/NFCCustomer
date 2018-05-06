@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- stamp coupon main layout begins-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_coupon_stamp_shop_lv"
+        android:divider="@color/black"
+        android:dividerHeight="1px"></ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/fragment_coupon_stamp_coupon_ll"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="@dimen/back_icon_width"
+            android:layout_height="@dimen/back_icon_width"
+            android:src="@drawable/back"
+            android:id="@+id/fragment_coupon_stamp_coupon_back_iv"
+
+            android:layout_marginTop="@dimen/back_icon_margintop"
+            android:layout_marginLeft="@dimen/back_icon_marginleft"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_coupon_stamp_coupon_lv"
+        android:divider="@color/white"
+        android:dividerHeight="3px"
+        android:layout_marginTop="@dimen/fragment_coupon_cash_add_ll_margin_top"></ListView>
+    </LinearLayout>
+</RelativeLayout>

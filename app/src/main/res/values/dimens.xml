@@ -1,0 +1,57 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="sliding_menu_width">80dp</dimen>
+    <dimen name="back_icon_margintop">10dp</dimen>
+    <dimen name="back_icon_marginleft">10dp</dimen>
+    <!-- Receipt -->
+    <dimen name="receipt_tv_size_shopname">30sp</dimen>
+    <dimen name="receipt_tv_size_shop_address">15sp</dimen>
+    <dimen name="receipt_tv_size_item_title">12sp</dimen>
+    <dimen name="receipt_tv_size_item">12sp</dimen>
+    <dimen name="receipt_margin_left">20dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_width">300dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_height">400dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_title_tv_width">200dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_title_tv_height">40dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_tv_width">110dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_tv_height">30dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_et_width">120dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_discount_et_width">80dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_discount_tv_width">40dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_et_height">30dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_title_tv_size">20sp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_tv_size">16sp</dimen>
+    <dimen name="fragment_create_receipt_add_item_rl_et_margin_left">20dp</dimen>
+    <dimen name="fragment_create_receipt_add_item_tv_margin_top">10dp</dimen>
+
+    <!-- Coupon -->
+    <dimen name="fragment_coupon_cash_add_ll_height">40dp</dimen>
+    <dimen name="fragment_coupon_cash_add_ll_tv_width">60dp</dimen>
+    <dimen name="fragment_coupon_cash_add_ll_tv_size">16sp</dimen>
+    <dimen name="fragment_coupon_cash_add_button_margin_left">30dp</dimen>
+    <dimen name="fragment_coupon_cash_add_ll_margin_top">20dp</dimen>
+    <dimen name="fragment_coupon_divider_width">200dp</dimen>
+    <dimen name="fragment_coupon_divider_height">1px</dimen>
+    <dimen name="fragment_coupon_divider_margin_left_and_right">20dp</dimen>
+    <dimen name="fragment_coupon_add_coupon_id_textview_width">100dp</dimen>
+    <dimen name="fragment_coupon_add_coupon_id_textview_height">30dp</dimen>
+    <dimen name="fragment_coupon_add_coupon_id_textview_size">16sp</dimen>
+    <dimen name="fragment_coupon_add_coupon_choose_picture_rl_height">80dp</dimen>
+    <dimen name="fragment_coupon_add_coupon_choose_picture_tv_margin_left">10dp</dimen>
+    <dimen name="fragment_coupon_add_coupon_choose_picture_tv_margin_top">10dp</dimen>
+    <dimen name="fragment_coupon_add_coupon_choose_picture_rl_margin_left">20dp</dimen>
+    <dimen name="fragment_coupon_add_coupon_description_ll_height">150dp</dimen>
+    <dimen name="back_icon_width">20dp</dimen>
+    <dimen name="shop_item_tv_width">20dp</dimen>
+    <dimen name="shop_item_tv_text_size">12sp</dimen>
+    <dimen name="stamp_coupon_item_iv_width">80dp</dimen>
+    <dimen name="fragment_advertisement_tv_text_size">16dp</dimen>
+    <dimen name="advertisement_item_textview_width">150dp</dimen>
+
+    <dimen name="fragment_setting_toggle_btn_width">40dp</dimen>
+    <dimen name="fragment_setting_text_width">200dp</dimen>
+
+</resources>

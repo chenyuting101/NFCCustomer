@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/fragment_new_receipt_list_shop_list_ll">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/black"
+            android:dividerHeight="1px"
+            android:id="@+id/fragment_new_receipt_list_shop_list_lv"></ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/fragment_new_receipt_list_receipt_list_ll"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="@dimen/back_icon_width"
+            android:layout_height="@dimen/back_icon_width"
+            android:src="@drawable/back"
+            android:id="@+id/fragment_new_receipt_list_receipt_list_back_iv"
+
+            android:layout_marginTop="@dimen/back_icon_margintop"
+            android:layout_marginLeft="@dimen/back_icon_marginleft"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_new_receipt_list_receipt_list_lv"
+            android:divider="@color/black"
+            android:dividerHeight="1px"
+            android:layout_marginTop="@dimen/fragment_coupon_cash_add_ll_margin_top"></ListView>
+    </LinearLayout>
+    <!-- receipt detail ll begin -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_new_receipt_list_receipt_detail_ll"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="@dimen/back_icon_width"
+            android:layout_height="@dimen/back_icon_width"
+            android:src="@drawable/back"
+            android:id="@+id/fragment_new_receipt_list_receipt_detail_back_iv"
+
+            android:layout_marginTop="@dimen/back_icon_margintop"
+            android:layout_marginLeft="@dimen/back_icon_marginleft"/>
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+                <LinearLayout
+                    android:orientation="vertical" android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/receipt_margin_left">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_tv_shopname"
+                            android:textSize="@dimen/receipt_tv_size_shopname"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_tv_shop_address"
+                            android:textSize="@dimen/receipt_tv_size_shop_address"
+                            android:layout_gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_tv_shop_phonenumber"
+                            android:textSize="@dimen/receipt_tv_size_shop_address"
+                            android:layout_gravity="center"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/receipt_date"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/receipt_tv_size_shop_address"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/receipt_tv_size_shop_address"
+                                    android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_tv_date"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/receipt_time"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/receipt_tv_size_shop_address"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/receipt_tv_size_shop_address"
+                                    android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_tv_time"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/receipt_number"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/receipt_tv_size_shop_address"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/receipt_tv_size_shop_address"
+                                    android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_tv_number"
+                                    />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <!-- item  -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/item_code"
+                                    android:layout_weight="1"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/item_quantity"
+                                    android:layout_weight="1"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/item_original_price"
+                                    android:layout_weight="1"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/item_discount"
+                                    android:layout_weight="1"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/item_price"
+                                    android:layout_weight="1"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_ll_item_list">
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <!-- item end-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text=""
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text=""
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Total"
+                                android:gravity="right"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="cost:"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/fragment_new_receipt_list_receipt_detail_fragment_receipt_total_cost_tv"
+                                android:layout_weight="1"/>
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Coupon:"
+                            android:gravity="center"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:id="@+id/fragment_new_receipt_list_receipt_detail_fragment_receipt_coupon_tv"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_im_qrcode"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:id="@+id/fragment_new_receipt_list_receipt_detail_receipt_tv_descriptor"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- receipt detail ll end -->
+
+
+</RelativeLayout>

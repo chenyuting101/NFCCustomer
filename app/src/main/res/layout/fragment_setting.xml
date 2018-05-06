@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="@dimen/fragment_coupon_cash_add_ll_margin_top"
+        >
+        <TextView
+            android:layout_width="@dimen/fragment_setting_text_width"
+            android:layout_height="@dimen/fragment_coupon_add_coupon_id_textview_height"
+            android:textSize="@dimen/fragment_coupon_add_coupon_id_textview_size"
+            android:layout_gravity="center"
+            android:text="@string/fragment_setting_upload_data_to_server"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/fragment_coupon_divider_margin_left_and_right"
+            />
+        <ImageView
+            android:layout_width="@dimen/fragment_setting_toggle_btn_width"
+            android:layout_height="@dimen/fragment_coupon_add_coupon_id_textview_height"
+            android:id="@+id/fragment_setting_upload_data_to_server_iv"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:layout_marginTop="@dimen/fragment_coupon_cash_add_ll_margin_top"
+        >
+        <TextView
+            android:layout_width="@dimen/fragment_setting_text_width"
+            android:layout_height="@dimen/fragment_coupon_add_coupon_id_textview_height"
+            android:textSize="@dimen/fragment_coupon_add_coupon_id_textview_size"
+            android:layout_gravity="center"
+            android:text="@string/fragment_setting_receive_advertisement"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/fragment_coupon_divider_margin_left_and_right"
+            />
+        <ImageView
+            android:layout_width="@dimen/fragment_setting_toggle_btn_width"
+            android:layout_height="@dimen/fragment_coupon_add_coupon_id_textview_height"
+            android:id="@+id/fragment_setting_receive_advertisement_iv"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:layout_marginTop="@dimen/fragment_coupon_cash_add_ll_margin_top"
+        >
+        <TextView
+            android:layout_width="@dimen/fragment_setting_text_width"
+            android:layout_height="@dimen/fragment_coupon_add_coupon_id_textview_height"
+            android:textSize="@dimen/fragment_coupon_add_coupon_id_textview_size"
+            android:layout_gravity="center"
+            android:text="@string/fragment_setting_filter_advertisement"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/fragment_coupon_divider_margin_left_and_right"
+            />
+        <ImageView
+            android:layout_width="@dimen/fragment_setting_toggle_btn_width"
+            android:layout_height="@dimen/fragment_coupon_add_coupon_id_textview_height"
+            android:id="@+id/fragment_setting_filter_advertisement_iv"/>
+    </LinearLayout>
+
+</LinearLayout>
